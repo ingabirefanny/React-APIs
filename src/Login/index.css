@@ -1,19 +1,24 @@
 form{
-    width: 60%;
+    width: 30%;
     border: solid 1px;
+    margin-left: 35%;
+    padding: 10 px;
 }
 
 input{
     width: 90%;
     margin: 2% 0;
     padding: 16px 10px;
+    margin-left: 20px;
+    border-radius: 10px;
 }
 button{
     padding: 6px 10px;
-    width: 97%;
+    width: 40%;
     border: none;
     background-color: brown;
     color: antiquewhite;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
+    margin-left: 150px;
 }

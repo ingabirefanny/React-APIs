@@ -29,13 +29,15 @@
 
 import { useGetUsers } from "./hooks/useGetUsers";
 import UserCard from "../Atoms/UserCard";
+import './index.css'
+
 
 const Users = () => {
   const { users, loading, error } = useGetUsers();
   console.log('users...', users);
 
   return (
-    <div>
+    <div className="photos">
       {loading && <h2>Loading Users...</h2>}
       {!loading && error && <h2>Error: {error}</h2>}
       {!loading && !error && users.length === 0 && <h2>No users found</h2>}
